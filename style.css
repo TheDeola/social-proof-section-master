@@ -14,7 +14,6 @@ main {
                 url(/images/bg-pattern-bottom-desktop.svg) 50vw 50vh no-repeat;
     max-width: 1100px;
     margin: 50px auto;
-    border: .2px solid hsl(303, 10%, 53%);
     border-radius: 10px;
     padding: 30px 40px;
 }
@@ -40,6 +39,7 @@ main {
     margin-left: 90px;
 }
 .right .ratings {
+    display: flex;
     border: .5px solid hsl(300, 24%, 96%);
     border-radius: 5px;
     width: 90%;
@@ -56,6 +56,7 @@ main {
 }
 .ratings span {
     padding-left: 10px;
+    padding-top: 3px;
 }
 .section {
     display: flex;
@@ -71,6 +72,9 @@ main {
     height: 50%;
     background: hsl(300, 43%, 22%);
     color: hsl(300, 24%, 96%);
+}
+.boxes p {
+    text-align: left;
 }
 .boxes img[src] {
     width: 30px;
@@ -141,6 +145,8 @@ footer {
         display: inline;
     }
     .ratings {
+        display: flex;
+        flex-direction: column;
         margin: 0 auto;
         padding: auto;
     }
