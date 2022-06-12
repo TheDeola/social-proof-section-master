@@ -43,8 +43,8 @@ Users should be able to:
 
 ### Useful resources
 
-- [MDN](https://www.example.com) 
-- [W3schools](https://www.example.com)
+- [MDN](https://developer.mozilla.org/) 
+- [W3schools](https://www.w3schools.com/)
 
 
 ## Author
